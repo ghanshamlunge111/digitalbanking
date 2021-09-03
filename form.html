@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Digital Banking - Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="mainJS.js"></script>
+</head>
+
+<body>
+
+    <!-- side Navbar start -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="services.html">Services</a>
+        <!-- <a href="#">Products</a> -->
+        <a href="login2.html">Login / Sign-Up</a>
+        <a href="contactus.html">Contact Us</a>
+    </div>
+    <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; Menu </span>
+    <!-- side Navbar end -->
+
+    <div class="aboutus-header bg-dark">
+        <div class="typing-text">
+            Apply Now
+        </div>
+    </div>
+
+    <div class=" application-container container-fluid">
+
+
+        <div class="login-box">
+            <h2>Application Form</h2>
+            <form id="application_form">
+                <div class="user-box">
+                    <input type="text" name="" required="" id="u_name" onblur="myFunction()">
+                    <label>Name</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="" required="" id="u_Acc_No" onblur="myFunction()">
+                    <label>Account Number</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="" required="" id="u_Mob_No" onblur="myFunction()">
+                    <label>Mobile Number</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="" required="" id="u_Address" onblur="myFunction()">
+                    <label>Address</label>
+                </div>
+                <div class="user-box1">
+                    <label> Select any One</label>
+                    <br>
+                    <input type="Radio" name="radio-btn" required="">
+                    <label>Credit Card</label><br>
+
+                    <input type="Radio" name="radio-btn" required="">
+                    <label>Debit Card</label><br>
+
+                    <input type="Radio" name="radio-btn" required="">
+                    <label>Cheque Book</label><br>
+
+                    <input type="Radio" name="radio-btn" required="">
+                    <label>Loan</label><br>
+
+                    <input type="Radio" name="radio-btn" required="">
+                    <label>Internet Banking</label><br>
+
+                    <input type="Radio" name="radio-btn" required="">
+                    <label>Mobile Banking</label>
+
+                </div>
+                <p id="demoText"></p>
+                <a href="#" onclick="formSubmit()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span> Submit
+                </a>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-left text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-university me-3"></i>&nbsp;Digital Banking
+                        </h6>
+                        <p>
+                            Experience fast and seamless banking with us. Come and join today to get discount while availaing premium features.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="services.html" class="text-reset">Credit / Debit Cards</a>
+                        </p>
+                        <p>
+                            <a href="services.html" class="text-reset">Loan</a>
+                        </p>
+                        <p>
+                            <a href="services.html" class="text-reset">Cheque Book</a>
+                        </p>
+                        <p>
+                            <a href="services.html" class="text-reset">Internet Banking</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="index.html" class="text-reset">Home</a>
+                        </p>
+                        <p>
+                            <a href="services.html" class="text-reset">Services</a>
+                        </p>
+                        <p>
+                            <a href="login2.html" class="text-reset">Login / Sign-Up</a>
+                        </p>
+                        <p>
+                            <a href="contactus.html" class="text-reset">Contact Us</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> Amravati, MH 444604, INDIA</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i> reachus@digitalbanking.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 91 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 91 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="">Ghanshyam Lunge</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script>
+        const VideoController = function(isHovering, videoElement) {
+            if (isHovering == true) {
+                videoElement.play();
+            } else if (isHovering == false) {
+                videoElement.pause();
+            }
+        }
+    </script>
+
+</body>
+
+</html>
